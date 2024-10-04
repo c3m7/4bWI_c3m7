@@ -1,0 +1,30 @@
+.blau {
+    background-color: lightskyblue;
+    width: 200px;
+    height: 400px;
+    margin-left: 40px;
+    top: 40x;
+}
+
+.grün {
+    background-color: mediumaquamarine;
+    width: 40px;
+    height: 40px;
+    bottom: 0px;
+    right: 0px;
+    position: static;
+}
+
+.black {
+    background-color: black;
+    width: 40px;
+    height: 40px;
+    margin-left: 30px;
+    margin-top: 20px;
+    display: flex;
+    position: static;
+}
+
+.text {
+    color: white;
+}
