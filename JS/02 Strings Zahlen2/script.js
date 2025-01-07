@@ -4,7 +4,7 @@ let b = 2.854
 let result = a + b
 console.log("a+b="+result)
 
-let name = "Peter";
+let name = "Cem";
 console.log("name: " + name)
 
 console.log("Das Ergebnis von " + a + " plus " + b + " ist " + result)
@@ -14,6 +14,6 @@ let d = 3.9
 result = c / d
 console.log("The result of " + c + " divided by " + d + " is " + result)
 
-let vorname = "Peter"
-let nachname = "Gsteu"
+let vorname = "Cem"
+let nachname = "Cetinkaya"
 console.log("Ich heiße " + vorname +" "+ nachname )
