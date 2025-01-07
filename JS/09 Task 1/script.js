@@ -1,14 +1,30 @@
-for(i=1;i<=222;i++){
-    if(i%5==0 && i%7==0){
-        console.log("FooBar")
-    }
-    else if(i%5==0){
-        console.log("Foo")
-    }
-    else if(i%7==0){
-        console.log("Bar")
+/*
+Erstelle mit Hilfe einer Schleife und Modulo das folgende Ausgabe liefert (Rechteckbeispiel adaptieren): 
+X X X X 
+O O O O 
+X X X X 
+O O O O 
+*/
+
+let rndm = Math.floor(Math.random()*6+5)
+
+let width = 7
+let height = 7
+
+for(let i = 0; i<height;i++){
+    if(i%2==0){
+        console.log("X ".repeat(width))
     }
     else{
-        console.log(i)
+        console.log("O ".repeat(width))
     }
 }
+console.log("---------------------------------------------")
+
+let sum = 0
+for(let i = 1;i<=100;i++){
+    if(i%2==0){
+        sum+=i
+    }
+}
+console.log(sum)
