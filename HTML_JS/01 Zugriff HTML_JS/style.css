@@ -1,0 +1,28 @@
+#value1{
+    width: 150px;
+    margin-right: 20px;
+}
+
+#value2{
+    width: 150px;
+}
+
+#add{
+    margin: 5px;
+}
+
+#subtract{
+    margin: 5px;
+}
+
+#multiply{
+    margin: 5px;
+}
+
+#divide{
+    margin: 5px;
+}
+
+#result{
+    font-weight: bold;
+}
