@@ -1,0 +1,46 @@
+#title{
+    display: flex;
+    justify-content: center;
+    background: #121FCF;
+    background: linear-gradient(to right, #121FCF 0%, #CF1512 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+input{
+    padding: 10px; 
+}
+
+#field1{
+    margin: 20px;
+    box-shadow: 0px 0px 5px 5px rgb(151, 17, 17);
+    width: 200px;
+}
+
+#field2{
+    margin: 20px;
+    box-shadow: 0px 0px 5px 5px rgb(15, 29, 159);
+    width: 200px;
+}
+
+.box{
+    display: flex;
+    justify-content: center;
+}
+
+#button{
+    display: flex;
+    justify-content: center;
+}
+
+button{
+    width: 300px;
+    box-shadow: 0px 0px 5px 5px rgb(251, 255, 0);
+}
+
+#output
+{
+    text-align: center;
+    margin: 10px;
+    font-weight: bold;
+}
