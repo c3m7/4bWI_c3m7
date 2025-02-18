@@ -1,0 +1,27 @@
+.task{
+    padding: 20px;
+    box-shadow: 0px 0px 5px 5px rgb(0, 0, 0);
+    margin-bottom: 20px;
+    width:200px;
+}
+
+.input{
+    margin-bottom: 20px;
+}
+
+.done{
+    font-size: 20px;
+    color: green;
+    width: 50px;
+}
+.done:hover{
+    cursor: pointer;
+}
+.delete{
+    font-size: 20px;
+    color: red;
+    width: 60px;
+}
+.delete:hover{
+    cursor: pointer;
+}
