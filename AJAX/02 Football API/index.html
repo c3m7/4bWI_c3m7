@@ -1,17 +1,53 @@
 <!DOCTYPE html>
-<html lang="en">
- 
+<html lang="de">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <script src="script.js" defer></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Football - Bundesliga</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="script.js" defer></script>
 </head>
- 
+
 <body>
-    <h1>Football</h1>
-    <div id="table"></div>
- 
-    <div id="nextMatch"></div>
+  <div class="max-w-4xl mx-auto">
+    <h1 class="text-4xl font-bold text-center mb-8">Football</h1>
+    <div class="flex flex-col md:flex-row gap-8">
+      
+      <div class="w-full md:w-1/2">
+        <h2 class="text-2xl font-semibold mb-4">Bundesliga Teams</h2>
+        <div id="table" class="bg-white shadow-lg rounded p-4"></div>
+      </div>
+
+      <div class="w-full md:w-1/2">
+        <h2 class="text-2xl font-semibold mb-4">Nächstes Spiel</h2>
+        <div id="nextMatch" class="bg-white shadow-lg rounded p-4"></div>
+
+      </div>
+    </div>
+  </div>
+
+  <script>
+    // Der Code wartet 1 Sekunde, damit alle Team-Boxen geladen sind, und fügt dann
+    // CSS-Klassen hinzu die beim Darüberfahren hervorgehoben werden. (Im Internet diese Lösung gefunden)
+    setTimeout(function() {
+      const teamBoxes = document.querySelectorAll("#table div[data-teamId]");
+      teamBoxes.forEach(box => {
+        box.classList.add(
+          "bg-white",
+          "rounded-lg",
+          "p-2",
+          "mb-2",
+          "cursor-pointer",
+          "hover:bg-gray-100",
+          "transition-colors",
+          "duration-200",
+          "border",
+          "border-transparent",
+          "hover:border-blue-500",
+          "hover:shadow-lg"
+        );
+      });
+    }, 1000);
+  </script>
 </body>
 </html>
