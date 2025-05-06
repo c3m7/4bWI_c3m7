@@ -2,7 +2,7 @@ import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
-import Sample4 from './components/03/Sample4'
+import Page1 from './components/pages/Page1'
 
  
 function App() {
@@ -10,7 +10,7 @@ function App() {
  
   return (
     <>
-      <Sample4 />
+      <Page1 />
     </>
   )
 }
