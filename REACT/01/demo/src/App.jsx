@@ -1,16 +1,16 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 import './App.css'
-import Page1 from './components/pages/Page1'
+import Todo from './components/TodoTest/Todo'
+import TodoList from './components/TodoTest/TodoList'
+import Counter from './components/Test 20.5.25/Counter'
+
 
  
 function App() {
-  const [count, setCount] = useState(0)
  
   return (
     <>
-      <Page1 />
+      <Counter />
     </>
   )
 }
